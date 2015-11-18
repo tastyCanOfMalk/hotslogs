@@ -1,5 +1,6 @@
 # hotslogs playpen
 Playing with an outdated datadump from hotslogs (Heroes of the Storm).
+
 Data from hotslogs dump 2015/05/04-14, post-Kael'thas, pre-Johanna
 
 ### Compressed datafiles available below:
