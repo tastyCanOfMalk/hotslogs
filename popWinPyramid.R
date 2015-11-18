@@ -70,6 +70,9 @@ ggWinrate <-
     scale_y_continuous(labels = percent,
                        limits = c(.3, .7), 
                        oob = rescale_none) +
+    geom_hline(yintercept = .5, 
+               alpha = .2,
+               linetype = "longdash") +
     theme(axis.title.y = element_blank(),
           axis.title.x = element_blank(),
           axis.ticks.y = element_blank(),
